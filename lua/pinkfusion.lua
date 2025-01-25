@@ -65,19 +65,19 @@ local ct = {
   red1 = '#f44f80',
   red2 = '#f62e65',
   red3 = '#f13e72',
-  red4 = '#ef6b62',
-  red5 = '#e64f51',
-  red6 = '#eb4055',
-  red7 = '#e23b5d',
-  red8 = '#e71a50',
-  red9 = '#f21f5b',
-  reda = '#f15f57',
-  redb = '#f5434b',
-  redc = '#f94c45',
-  redd = '#f84045',
-  rede = '#f65d4f',
-  redf = '#f74243',
-  redg = '#f84a56',
+  red4 = '#d90061',
+  red5 = '#cc0066',
+  red6 = '#e20072',
+  red7 = '#e23b6f',
+  red8 = '#e71a6f',
+  red9 = '#f21f77',
+  reda = '#f15f8b',
+  redb = '#f60080',
+  redc = '#f94c92',
+  redd = '#f8408b',
+  rede = '#f65d81',
+  redf = '#f74274',
+  redg = '#f84a83',
 
 
   blue = '#1e3a8a',
@@ -351,8 +351,8 @@ return {
       )
       vim.api.nvim_set_hl(0, 'NormalNC', { fg = ct.fg, bg = bg2, ctermfg = 146, ctermbg = 236 })
       vim.api.nvim_set_hl(0, 'FloatBorder', { fg = ct.pink1, bg = bg2, ctermfg = 80, ctermbg = 236 })
-      vim.api.nvim_set_hl(0, 'LineNr', { fg = ct.gray6, bg = bg, ctermfg = 239, ctermbg = 234 })
-      vim.api.nvim_set_hl(0, 'LineNrAbove', { fg = ct.gray5, bg = bg, ctermfg = 239, ctermbg = 234 })
+      vim.api.nvim_set_hl(0, 'LineNr', { fg = ct.pinkpop, bg = bg, ctermfg = 239, ctermbg = 234 })
+      vim.api.nvim_set_hl(0, 'LineNrAbove', { fg = ct.redg, bg = bg, ctermfg = 239, ctermbg = 234 })
       vim.api.nvim_set_hl(0, 'LineNrBelow', { link = 'LineNrAbove' })
       vim.api.nvim_set_hl(0, 'CursorLine', { fg = 'NONE', bg = bgfl, ctermfg = 'NONE', ctermbg = 236, bold = (vim.g.pinkfusion_bold == 1) })
       vim.api.nvim_set_hl(0, 'CursorLineNr', {
@@ -428,7 +428,7 @@ return {
       vim.api.nvim_set_hl(0, 'Repeat', { fg = ct.redg, ctermfg = 203, italic = (vim.g.pinkfusion_italic == 1) })
       vim.api.nvim_set_hl(0, 'Label', { fg = ct.purple0, ctermfg = 34, italic = (vim.g.pinkfusion_italic == 1) })
       vim.api.nvim_set_hl(0, 'Operator', { fg = ct.cyan, ctermfg = 158, bold = (vim.g.pinkfusion_bold == 1) })
-      vim.api.nvim_set_hl(0, 'Keyword', { fg = ct.purple0, ctermfg = 183, bold = (vim.g.pinkfusion_bold == 1), italic = (vim.g.pinkfusion_italic == 1) })
+      vim.api.nvim_set_hl(0, 'Keyword', { fg = ct.pink9, ctermfg = 183, bold = (vim.g.pinkfusion_bold == 1), italic = (vim.g.pinkfusion_italic == 1) })
       vim.api.nvim_set_hl(0, 'Exception', { fg = ct.pink9, ctermfg = 168 })
       vim.api.nvim_set_hl(0, 'PreProc', { fg = ct.violet, ctermfg = 213 })
       vim.api.nvim_set_hl(0, 'Include', { fg = ct.pink7, bg = bg, ctermfg = 176, ctermbg = 'NONE' })

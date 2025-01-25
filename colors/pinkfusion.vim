@@ -122,7 +122,7 @@ else
   hi sqlSpecial guifg=#DC143C ctermfg=161 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi link sqlType Question
   hi sqlFunction guifg=#f62e65 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi mysqlKeyword guifg=#e23b5d ctermfg=131 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi mysqlKeyword guifg=#e23b6f ctermfg=131 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi link mysqlOperator DiagnosticHint
   hi mysqlFunction guifg=#50c878 ctermfg=78 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi mysqlStatement guifg=#f3c5cb ctermfg=158 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -168,7 +168,7 @@ else
   hi link markdownEscape SpellCap
   hi link markdownError cssImportant
   hi ClapPreview guibg=bg2 ctermbg=236 gui=NONE cterm=NONE
-  hi ClapMatches guifg=#e23b5d ctermfg=131 guibg=#8c3b56 ctermbg=238 gui=Bold,undercurl,reverse cterm=Bold,undercurl,reverse guisp=#f44f80
+  hi ClapMatches guifg=#e23b6f ctermfg=131 guibg=#8c3b56 ctermbg=238 gui=Bold,undercurl,reverse cterm=Bold,undercurl,reverse guisp=#f44f80
   hi ClapDisplay guifg=#f16c6e ctermfg=146 guibg=bg ctermbg=234 gui=Bold,undercurl cterm=Bold,undercurl guisp=#f44f80
   hi TSAnnotation guifg=#f0a8d8 ctermfg=111 gui=NONE cterm=NONE
   hi TSAttribute guifg=#32CD32 ctermfg=116 gui=NONE cterm=NONE
@@ -179,7 +179,7 @@ else
   hi TSPunctBracket guifg=#f07493 ctermfg=110 gui=Bold cterm=Bold
   hi TSPunctSpectial guifg=#f2b57e ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi link TSConstant Constant
-  hi TSConstBuiltin guifg=#ef6b62 ctermfg=167 gui=Italic cterm=Italic
+  hi TSConstBuiltin guifg=#d90061 ctermfg=167 gui=Italic cterm=Italic
   hi TSConstMacro guifg=#fc3979 ctermfg=197 gui=NONE cterm=NONE
   hi link TSString String
   hi TSStringRegex guifg=#32CD32 ctermfg=116 gui=NONE cterm=NONE
@@ -260,7 +260,7 @@ else
   hi link javaScriptSpecial TSParameter
   hi javaScriptFunction guifg=#2f4c9f ctermfg=74 gui=NONE cterm=NONE
   hi link javaScriptStatement jsReturn
-  hi javaScriptException guifg=#eb4055 ctermfg=167 gui=NONE cterm=NONE
+  hi javaScriptException guifg=#e20072 ctermfg=167 gui=NONE cterm=NONE
   hi vimCommentString guifg=#f3c37e ctermfg=228 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi link vimCommentTitle Question
   hi vimError guifg=#f8c6b0 ctermfg=187 guibg=#f44f80 ctermbg=204 gui=NONE cterm=NONE
@@ -298,13 +298,13 @@ else
   hi link jsonKeywordMatch cssImportant
   hi link jsonQuote cssAttr
   hi link jsonNoise cssImportant
-  hi DiagnosticError guifg=#e64f51 ctermfg=130 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi DiagnosticSignError guifg=#eb4055 ctermfg=167 guibg=bg3 ctermbg=234 gui=NONE cterm=NONE
+  hi DiagnosticError guifg=#cc0066 ctermfg=130 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi DiagnosticSignError guifg=#e20072 ctermfg=167 guibg=bg3 ctermbg=234 gui=NONE cterm=NONE
   hi link DiagnosticErrorFloating DiagnosticError
   hi DiagnosticWarning guifg=#e3bb3b ctermfg=143 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi DiagnosticSignWarn guifg=#e38d55 ctermfg=186 guibg=bg3 ctermbg=234 gui=NONE cterm=NONE
   hi DiagnosticWarningFloating guifg=#d46839 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi DiagnosticVirtualTextError guifg=#eb4055 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi DiagnosticVirtualTextError guifg=#e20072 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi DiagnosticVirtualTextWarning guifg=#d46839 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi DiagnosticVirtualTextInfo guifg=#3CB371 ctermfg=114 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi DiagnosticVirtualTextHint guifg=#006400 ctermfg=34 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -369,10 +369,10 @@ else
   hi goDeclaration guifg=#c84c88 ctermfg=176 gui=Bold cterm=Bold
   hi goSameId guifg=NONE ctermfg=NONE guibg=#7b2c34 ctermbg=236 gui=Bold,undercurl,Italic cterm=Bold,undercurl,Italic
   hi goPredefinedIdentifiers guifg=#CD5C5C ctermfg=167 gui=Italic cterm=Italic
-  hi goVar guifg=#f84a56 ctermfg=203 gui=Bold cterm=Bold
+  hi goVar guifg=#f84a83 ctermfg=203 gui=Bold cterm=Bold
   hi goType guifg=#f79b8b ctermfg=221 gui=Bold cterm=Bold
   hi goTypeDecl guifg=#e07645 ctermfg=186 gui=Bold cterm=Bold
-  hi goTypeName guifg=#f21f5b ctermfg=203 gui=Bold cterm=Bold
+  hi goTypeName guifg=#f21f77 ctermfg=203 gui=Bold cterm=Bold
   hi link stylusVariable cssAttr
   hi link stylusClass cssClassName
   hi link stylusClassChar cssProp
@@ -395,9 +395,9 @@ else
   hi NormalFloat guifg=#f8c6b0 ctermfg=187 guibg=bg2 ctermbg=236 gui=NONE cterm=NONE
   hi NormalNC guifg=#f1b6b1 ctermfg=146 guibg=bg2 ctermbg=236 gui=NONE cterm=NONE
   hi FloatBorder guifg=#2b4b9c ctermfg=80 guibg=bg2 ctermbg=236 gui=NONE cterm=NONE
-  hi LineNr guifg=#b73f5a ctermfg=239 guibg=bg ctermbg=234 gui=NONE cterm=NONE
+  hi LineNr guifg=#ff2a6e ctermfg=239 guibg=bg ctermbg=234 gui=NONE cterm=NONE
   hi CursorLine guifg=NONE ctermfg=NONE guibg=#7b2c34 ctermbg=236 gui=Bold cterm=Bold
-  hi CursorLineNr guifg=#006400 ctermfg=34 guibg=bg3 ctermbg=234 gui=Bold cterm=Bold
+  hi CursorLineNr guifg=#f8b2ce ctermfg=34 guibg=bg3 ctermbg=234 gui=Bold cterm=Bold
   hi ColorColumn guifg=NONE ctermfg=NONE guibg=#6b2536 ctermbg=235 gui=NONE cterm=NONE
   hi Cursor guibg=#f6c9d9 ctermbg=189 gui=NONE cterm=NONE
   hi CursorIM guifg=#f6c9d9 ctermfg=189 guibg=#5f7e97 ctermbg=66 gui=NONE cterm=NONE
@@ -427,7 +427,7 @@ else
   hi Question guifg=#4b6adf ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Search guifg=NONE ctermfg=NONE guibg=#9d385a ctermbg=239 gui=Bold,underline,Italic cterm=Bold,underline,Italic guisp=#EE82EE
   hi SpecialKey guifg=#f4a58d ctermfg=222 gui=NONE cterm=NONE
-  hi SpellBad guifg=#e64f51 ctermfg=130 guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#e64f51
+  hi SpellBad guifg=#cc0066 ctermfg=130 guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#cc0066
   hi SpellCap guifg=#3a5bcf ctermfg=74 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi SpellRare guifg=#3CB371 ctermfg=114 guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#ff9b96
   hi StatusLine guifg=#f6c9d9 ctermfg=189 guibg=#8c3b56 ctermbg=238 gui=NONE cterm=NONE
@@ -445,23 +445,23 @@ else
   hi Constant guifg=#f8e5c9 ctermfg=229 gui=NONE cterm=NONE
   hi String guifg=#66CDAA ctermfg=35 gui=NONE cterm=NONE
   hi Character guifg=#f8b2ce ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi Boolean guifg=#e71a50 ctermfg=203 gui=Italic cterm=Italic
+  hi Boolean guifg=#e71a6f ctermfg=203 gui=Italic cterm=Italic
   hi Number guifg=#fcd9b5 ctermfg=208 gui=NONE cterm=NONE
   hi Float guifg=#fc3979 ctermfg=197 gui=NONE cterm=NONE
   hi Identifier guifg=#f8c1e5 ctermfg=189 gui=NONE cterm=NONE
   hi Function guifg=#6f87d1 ctermfg=39 gui=Bold cterm=Bold
   hi Statement guifg=#fc3979 ctermfg=197 gui=Bold cterm=Bold
   hi Conditional guifg=#3CB371 ctermfg=114 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi Repeat guifg=#f84a56 ctermfg=203 gui=Italic cterm=Italic
+  hi Repeat guifg=#f84a83 ctermfg=203 gui=Italic cterm=Italic
   hi Label guifg=#006400 ctermfg=34 gui=Italic cterm=Italic
   hi Operator guifg=#f3c5cb ctermfg=158 gui=Bold cterm=Bold
-  hi Keyword guifg=#f59fc5 ctermfg=183 gui=Bold,Italic cterm=Bold,Italic
+  hi Keyword guifg=#f62872 ctermfg=183 gui=Bold,Italic cterm=Bold,Italic
   hi Exception guifg=#f62872 ctermfg=168 gui=NONE cterm=NONE
   hi PreProc guifg=#EE82EE ctermfg=213 gui=NONE cterm=NONE
 
   hi Include guifg=#c84c88 ctermfg=176 gui=NONE cterm=NONE
   hi Define guifg=#f1609a ctermfg=204 gui=Bold cterm=Bold
-  hi Macro guifg=#e23b5d ctermfg=131 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi Macro guifg=#e23b6f ctermfg=131 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi PreCondit guifg=#ffe0c4 ctermfg=193 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Type guifg=#00FA9A ctermfg=79 gui=Bold cterm=Bold
   hi StorageClass guifg=#3b4f9e ctermfg=45 gui=NONE cterm=NONE
@@ -480,7 +480,7 @@ else
   hi Underlined guifg=#00FA9A ctermfg=79 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Ignore guifg=#9b3751 ctermfg=239 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Error guifg=#DC143C ctermfg=161 guibg=NONE ctermbg=NONE gui=Bold,undercurl cterm=Bold,undercurl guisp=#e38d55
-  hi Todo guifg=#ef6b62 ctermfg=167 guibg=#9d285d ctermbg=242 gui=Bold,underline cterm=Bold,underline
+  hi Todo guifg=#d90061 ctermfg=167 guibg=#9d285d ctermbg=242 gui=Bold,underline cterm=Bold,underline
   hi typescriptParens guifg=#6f87d1 ctermfg=39 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi link typescriptLogicSymbols cssImportant
   hi typescriptReserved guifg=#3a57bb ctermfg=62 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

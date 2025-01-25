@@ -118,7 +118,7 @@ else
   hi TelescopeSelection guifg=#f3c5cb ctermfg=158 guibg=#773c3e ctermbg=236 gui=NONE cterm=NONE
   hi TelescopeMatching guifg=#EE82EE ctermfg=213 gui=NONE cterm=NONE
   hi sqlStatement guifg=#f56da0 ctermfg=80 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi sqlKeyword guifg=#f67f78 ctermfg=214 gui=Bold cterm=Bold
+  hi sqlKeyword guifg=#f9d8e1 ctermfg=214 gui=Bold cterm=Bold
   hi sqlSpecial guifg=#DC143C ctermfg=161 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi link sqlType Question
   hi sqlFunction guifg=#f62e65 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -172,7 +172,7 @@ else
   hi ClapDisplay guifg=#f16c6e ctermfg=146 guibg=bg ctermbg=234 gui=Bold,undercurl cterm=Bold,undercurl guisp=#f44f80
   hi TSAnnotation guifg=#f0a8d8 ctermfg=111 gui=NONE cterm=NONE
   hi TSAttribute guifg=#32CD32 ctermfg=116 gui=NONE cterm=NONE
-  hi TSCharacter guifg=#f79b8b ctermfg=221 gui=NONE cterm=NONE
+  hi TSCharacter guifg=#f3aad3 ctermfg=221 gui=NONE cterm=NONE
   hi link TSComment Comment
   hi TSError guifg=#DC143C ctermfg=161 guibg=NONE ctermbg=NONE gui=Bold,undercurl cterm=Bold,undercurl
   hi TSPunctDelimiter guifg=#f8c1e5 ctermfg=189 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
@@ -189,7 +189,7 @@ else
   hi link TSFloat Float
   hi TSField guifg=#e3568f ctermfg=134 gui=Bold cterm=Bold
   hi link TSType Type
-  hi TSTypeBuiltin guifg=#f79b8b ctermfg=221 gui=Bold cterm=Bold
+  hi TSTypeBuiltin guifg=#f3aad3 ctermfg=221 gui=Bold cterm=Bold
   hi TSProperty guifg=#3b4f9e ctermfg=45 gui=NONE cterm=NONE
   hi TSParameter guifg=#f6d1a1 ctermfg=229 gui=NONE cterm=NONE
   hi TSConstructor guifg=#4b6adf ctermfg=68 gui=Bold cterm=Bold
@@ -316,7 +316,7 @@ else
   hi DiagnosticSignInfo guifg=#f07493 ctermfg=110 guibg=bg3 ctermbg=234 gui=NONE cterm=NONE
   hi DiagnosticInfo guifg=#f07493 ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi DiagnosticHint guifg=#8FBC8F ctermfg=35 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi DiagnosticSignHint guifg=#f79b8b ctermfg=221 guibg=bg3 ctermbg=234 gui=NONE cterm=NONE
+  hi DiagnosticSignHint guifg=#f3aad3 ctermfg=221 guibg=bg3 ctermbg=234 gui=NONE cterm=NONE
   hi DiagnosticHintFloating guifg=#66CDAA ctermfg=37 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi LspReferenceText guibg=#7b2c34 ctermbg=239 gui=Bold,undercurl cterm=Bold,undercurl guisp=#fcd9b5
   hi LspReferenceRead guifg=#006400 ctermfg=34 gui=Bold,undercurl cterm=Bold,undercurl guisp=#fcd9b5
@@ -358,7 +358,7 @@ else
   hi link goMethod Function
   hi goMethodCall guifg=#f36474 ctermfg=81 gui=Bold cterm=Bold
   hi goPackage guifg=#EE82EE ctermfg=213 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi goRepeat guifg=#f79b8b ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi goRepeat guifg=#f3aad3 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi goSignedInts guifg=#50c878 ctermfg=78 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi goStruct guifg=#ff7f50 ctermfg=209 gui=Bold cterm=Bold
   hi goStructDef guifg=#87ceeb ctermfg=116 gui=Bold cterm=Bold
@@ -370,7 +370,7 @@ else
   hi goSameId guifg=NONE ctermfg=NONE guibg=#7b2c34 ctermbg=236 gui=Bold,undercurl,Italic cterm=Bold,undercurl,Italic
   hi goPredefinedIdentifiers guifg=#CD5C5C ctermfg=167 gui=Italic cterm=Italic
   hi goVar guifg=#f84a83 ctermfg=203 gui=Bold cterm=Bold
-  hi goType guifg=#f79b8b ctermfg=221 gui=Bold cterm=Bold
+  hi goType guifg=#f3aad3 ctermfg=221 gui=Bold cterm=Bold
   hi goTypeDecl guifg=#e07645 ctermfg=186 gui=Bold cterm=Bold
   hi goTypeName guifg=#f21f77 ctermfg=203 gui=Bold cterm=Bold
   hi link stylusVariable cssAttr
@@ -400,7 +400,7 @@ else
   hi CursorLineNr guifg=#f8b2ce ctermfg=34 guibg=bg3 ctermbg=234 gui=Bold cterm=Bold
   hi ColorColumn guifg=NONE ctermfg=NONE guibg=#6b2536 ctermbg=235 gui=NONE cterm=NONE
   hi Cursor guibg=#f6c9d9 ctermbg=189 gui=NONE cterm=NONE
-  hi CursorIM guifg=#f6c9d9 ctermfg=189 guibg=#5f7e97 ctermbg=66 gui=NONE cterm=NONE
+  hi CursorIM guifg=#f6c9d9 ctermfg=189 guibg=#fc3979 ctermbg=66 gui=NONE cterm=NONE
   hi CursorColumn guibg=#7b2c34 ctermbg=236 gui=NONE cterm=NONE
   hi Directory guifg=#f0a8d8 ctermfg=111 gui=NONE cterm=NONE
   hi DiffAdd guifg=NONE ctermfg=NONE guibg=#5a0b34 ctermbg=239 gui=Bold cterm=Bold
@@ -534,7 +534,7 @@ else
   hi diffAdded guifg=#228B22 ctermfg=149 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
   hi diffLine guifg=#f3c37e ctermfg=228 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
   hi diffSubname guifg=#32CD32 ctermfg=116 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
-  hi diffComment guifg=#5f7e97 ctermfg=66 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi diffComment guifg=#fc3979 ctermfg=66 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi BufferLineIndicatorSelected guifg=#7c2b45 ctermfg=236 guibg=#3a57bb ctermbg=62 gui=NONE cterm=NONE
   hi BufferLineBufferSelected guifg=#ff9b96 ctermfg=149 guibg=#7b2c34 ctermbg=236 gui=NONE cterm=NONE
   hi link BufferLineBuffer Comment
@@ -582,7 +582,7 @@ if has('terminal')
   \ "#ffe0c4",
   \ "#f6d1a1",
   \ "#4b6adf",
-  \ "#f67f78",
+  \ "#f9d8e1",
   \ "#f56da0",
   \ "#f8c1e5"
   \ ]
@@ -604,7 +604,7 @@ if has('nvim')
   let g:terminal_color_10 = "#ffe0c4"
   let g:terminal_color_11 = "#f6d1a1"
   let g:terminal_color_12 = "#4b6adf"
-  let g:terminal_color_13 = "#f67f78"
+  let g:terminal_color_13 = "#f9d8e1"
   let g:terminal_color_14 = "#f56da0"
   let g:terminal_color_15 = "#f8c1e5"
 endif

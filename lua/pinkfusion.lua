@@ -85,7 +85,6 @@ local ct = {
   darkpurple2 = '#7e1650',
 
   pink = '#fc3979',
-  aqua = '#f36474',
   pinkpop = '#ff2a6e',
   cyan = '#f3c5cb',
   br_cyan = '#f56da0',
@@ -137,7 +136,7 @@ local link_ts_v8 = function(bg)
   vim.api.nvim_set_hl(0, '@property', { link = '@field' })
   vim.api.nvim_set_hl(0, '@parameter', { fg = ct.red2, ctermfg = 229 })
   vim.api.nvim_set_hl(0, '@constructor', { fg = ct.pink3, ctermfg = 68, bold = (vim.g.pinkfusion_bold == 1) })
-  vim.api.nvim_set_hl(0, '@function', { fg = ct.aqua, ctermfg = 81, bold = (vim.g.pinkfusion_bold == 1) })
+  vim.api.nvim_set_hl(0, '@function', { fg = ct.pink8, ctermfg = 81, bold = (vim.g.pinkfusion_bold == 1) })
   vim.api.nvim_set_hl(0, '@function.builtin', { fg = ct.purple3, ctermfg = 148, bold = (vim.g.pinkfusion_bold == 1) })
   vim.api.nvim_set_hl(0, '@function.builtin', { fg = ct.pinkpop, ctermfg = 38, bold = (vim.g.pinkfusion_bold == 1) })
   vim.api.nvim_set_hl(0, '@function.macro', { fg = ct.purple, ctermfg = 141, bold = (vim.g.pinkfusion_bold == 1) })
@@ -151,7 +150,7 @@ local link_ts_v8 = function(bg)
 
   vim.api.nvim_set_hl(0, '@parameter.reference', { fg = ct.cyan, bg = bg, ctermfg = 158, bold = true })
   vim.api.nvim_set_hl(0, '@method', { link = 'Function' })
-  vim.api.nvim_set_hl(0, '@method.call', { fg = ct.aqua, ctermfg = 81 })
+  vim.api.nvim_set_hl(0, '@method.call', { fg = ct.pink8, ctermfg = 81 })
   vim.api.nvim_set_hl(0, '@conditional', { fg = ct.violet, ctermfg = 213, bold = (vim.g.pinkfusion_bold == 1) })
   vim.api.nvim_set_hl(0, '@repeat', { link = 'Repeat' })
   vim.api.nvim_set_hl(0, '@exception', { fg = ct.red, ctermfg = 204, italic = (vim.g.pinkfusion_italic == 1) })
@@ -350,7 +349,7 @@ return {
       vim.api.nvim_set_hl(0, 'StatusLineNC', { fg = ct.gray7, bg = ct.neardark4, ctermfg = 243, ctermbg = 236 })
       vim.api.nvim_set_hl(0, 'TabLine', { fg = ct.pink8, bg = bg, ctermfg = 110, ctermbg = 234 })
       vim.api.nvim_set_hl(0, 'TabLineFill', { fg = ct.gray3, bg = bg, ctermfg = 236, ctermbg = 'NONE' })
-      vim.api.nvim_set_hl(0, 'TabLineSel', { fg = ct.pinka, bg = bg, ctermfg = 39, ctermbg = 'NONE', underline = true })
+      vim.api.nvim_set_hl(0, 'TabLineSel', { fg = ct.pink9, bg = bg, ctermfg = 39, ctermbg = 'NONE', underline = true })
       vim.api.nvim_set_hl(0, 'Title', { fg = ct.pink10, ctermfg = 111, bold = (vim.g.pinkfusion_bold == 1) })
       vim.api.nvim_set_hl(0, 'Visual', { bg = ct.neardark6, ctermbg = 239 })
       vim.api.nvim_set_hl(0, 'VisualNOS', { fg = ct.gray, bg = bg, ctermfg = 243, ctermbg = 'NONE' })
@@ -365,7 +364,7 @@ return {
       vim.api.nvim_set_hl(0, 'Number', { fg = ct.magenta, ctermfg = 208 })
       vim.api.nvim_set_hl(0, 'Float', { fg = ct.red3, ctermfg = 197 })
       vim.api.nvim_set_hl(0, 'Identifier', { fg = ct.white, ctermfg = 189 })
-      vim.api.nvim_set_hl(0, 'Function', { fg = ct.pinka, ctermfg = 39, bold = (vim.g.pinkfusion_bold == 1) })
+      vim.api.nvim_set_hl(0, 'Function', { fg = ct.pink9, ctermfg = 39, bold = (vim.g.pinkfusion_bold == 1) })
       vim.api.nvim_set_hl(0, 'Statement', { fg = ct.red3, ctermfg = 197, bold = (vim.g.pinkfusion_bold == 1) })
       vim.api.nvim_set_hl(0, 'Conditional', { fg = ct.purple4, bg = bg, ctermfg = 114, ctermbg = 'NONE' })
       vim.api.nvim_set_hl(0, 'Repeat', { fg = ct.redg, ctermfg = 203, italic = (vim.g.pinkfusion_italic == 1) })
@@ -381,7 +380,7 @@ return {
       vim.api.nvim_set_hl(0, 'Type', { fg = ct.purple9, ctermfg = 79, bold = (vim.g.pinkfusion_bold == 1) })
       vim.api.nvim_set_hl(0, 'StorageClass', { fg = ct.pinkd, ctermfg = 45 })
       vim.api.nvim_set_hl(0, 'Structure', { fg = ct.cyan, ctermfg = 158, bold = (vim.g.pinkfusion_bold == 1) })
-      vim.api.nvim_set_hl(0, 'Typedef', { fg = ct.aqua, bg = bg, ctermfg = 81, ctermbg = 'NONE' })
+      vim.api.nvim_set_hl(0, 'Typedef', { fg = ct.pink8, bg = bg, ctermfg = 81, ctermbg = 'NONE' })
       vim.api.nvim_set_hl(0, 'Special', { fg = ct.pink5, bg = bg, ctermfg = 203, ctermbg = 'NONE' })
       vim.api.nvim_set_hl(0, 'SpecialChar', { fg = ct.red3, bg = bg, ctermfg = 197, ctermbg = 'NONE' })
       vim.api.nvim_set_hl(0, 'Tag', { fg = ct.purple, bg = bg, ctermfg = 149, ctermbg = 'NONE' })
@@ -424,7 +423,7 @@ return {
       vim.api.nvim_set_hl(0, 'TelescopePromptBorder', { fg = ct.pink1, bg = bg, ctermfg = 80, ctermbg = 234 })
       vim.api.nvim_set_hl(0, 'TelescopeResultsBorder', { fg = ct.purple6, bg = bg, ctermfg = 74, ctermbg = 234 })
       vim.api.nvim_set_hl(0, 'TelescopePreviewBorder', { fg = ct.purple2, bg = bg, ctermfg = 134, ctermbg = 234 })
-      vim.api.nvim_set_hl(0, 'TelescopeSelectionCaret', { fg = ct.aqua, bg = bg, ctermfg = 81, ctermbg = 234 })
+      vim.api.nvim_set_hl(0, 'TelescopeSelectionCaret', { fg = ct.pink8, bg = bg, ctermfg = 81, ctermbg = 234 })
       vim.api.nvim_set_hl(0, 'TelescopeSelection', { fg = ct.cyan, bg = ct.gray3, ctermfg = 158, ctermbg = 236 })
       vim.api.nvim_set_hl(0, 'TelescopeMatching', { fg = ct.violet, ctermfg = 213 }) vim.api.nvim_set_hl(0, 'sqlStatement', { fg = ct.br_cyan, bg = bg, ctermfg = 80, ctermbg = 'NONE' })
       vim.api.nvim_set_hl(0, 'sqlKeyword', { fg = ct.magenta1, ctermfg = 214, bold = (vim.g.pinkfusion_bold == 1) })
@@ -598,7 +597,7 @@ return {
       vim.api.nvim_set_hl(0, 'CmpItemKindInterface', { fg = ct.purple2, ctermfg = 134 })
       vim.api.nvim_set_hl(0, 'CmpItemKindText', { fg = ct.text, ctermfg = 187 })
       vim.api.nvim_set_hl(0, 'CmpItemKindFunction', { fg = ct.pinkpop, ctermfg = 38 })
-      vim.api.nvim_set_hl(0, 'CmpItemKindMethod', { fg = ct.pinka, ctermfg = 39 })
+      vim.api.nvim_set_hl(0, 'CmpItemKindMethod', { fg = ct.pink9, ctermfg = 39 })
       vim.api.nvim_set_hl(0, 'CmpItemKindKeyword', { fg = ct.pinkpop, ctermfg = 38 })
       vim.api.nvim_set_hl(0, 'helpHyperTextEntry', { link = 'cssClassName' })
       vim.api.nvim_set_hl(0, 'helpHeadline', { link = 'SpellCap' })

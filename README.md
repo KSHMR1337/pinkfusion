@@ -1,6 +1,6 @@
 ## Pinkfusion, a synthwave inspired vim/neovim theme with focus on pink, red and magenta
 
-This theme was inspired by the theme [Aurora](https://github.com/ray-x/aurora), I wanted to create an aurora fork that was focused on pink colorscheme as much as Aurora is on purple.
+This theme was inspired by the theme [Aurora](https://github.com/ray-x/aurora), I wanted to create an Aurora fork that is focused on pink colorscheme as much as Aurora is on purple.
 
 Feel free to contribute, just open a PR.
 
@@ -23,9 +23,9 @@ The theme has a Vimscript and a LUA version, the LUA version will be loaded auto
    {
     'kshmr1337/pinkfusion',
     init = function()
-      vim.g.aurora_italic = 1
-      vim.g.aurora_transparent = 1
-      vim.g.aurora_bold = 1
+      vim.g.pinkfusion_italic = 1
+      vim.g.pinkfusion_transparent = 1
+      vim.g.pinkfusion_bold = 1
     end,
     config = function()
         vim.cmd.colorscheme "pinkfusion"

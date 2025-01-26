@@ -6,7 +6,11 @@ Feel free to contribute, just open a PR.
 
 Normal mode:
 
+![image](https://github.com/user-attachments/assets/22ada01f-387e-4578-86fa-8cc1ff8e5189)
+
 Transparent mode:
+
+![image](https://github.com/user-attachments/assets/a08228be-a2a9-4e5a-a7fb-4cf79e20f5b5)
 
 ### LUA Setup
 

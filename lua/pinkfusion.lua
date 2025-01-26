@@ -9,11 +9,11 @@ vim = vim or {}
 
 --stylua: ignore start
 local ct = {
-  white = '#f8c1d7',
+  white = '#fa66a1',
   text = '#f1c6cf',
   textdark = '#d2a0b5',
   bright = '#f6c9d9',
-  fg = '#f1b6b1',
+  fg = '#f1b1c8',
   fg1 = '#f39fb7',
   fg2 = '#e68996',
   fg3 = '#e06273',
@@ -21,9 +21,9 @@ local ct = {
 
   black = '#070510',
   dark = '#141020',
-  neardark = '#1a1926',
-  neardarkb = '#5c3a54',
-  neardark2 = '#5d233c',
+  neardark = '#240d14',
+  neardarkb = '#30111b',
+  neardark2 = '#3d1723',
   neardark3 = '#7c2b45',
   neardark4 = '#7c3c51',
   neardark5 = '#9d2b60',
@@ -274,8 +274,8 @@ return {
       bg = ct.black
       bg2 = ct.neardark
       bgfl = ct.neardark
-      bg3 = '#101020'
-      bg4 = '#040410'
+      bg3 = '#20101a'
+      bg4 = '#10040d'
     end
 
     if vim.g.pinkfusion_transparent then
@@ -297,9 +297,10 @@ return {
       vim.api.nvim_set_hl(0, 'LineNrAbove', { fg = ct.redg, bg = bg, ctermfg = 204, ctermbg = 95})
       vim.api.nvim_set_hl(0, 'LineNrBelow', { link = 'LineNrAbove' })
       vim.api.nvim_set_hl(0, 'CursorLine', { fg = 'NONE', bg = bgfl, ctermfg = 'NONE', ctermbg = 234, bold = (vim.g.pinkfusion_bold == 1) })
+      vim.api.nvim_set_hl(0, 'CursorLineSign', { fg = 'NONE', bg = bgfl, ctermfg = 'NONE', ctermbg = 234, bold = (vim.g.pinkfusion_bold == 1) })
       vim.api.nvim_set_hl(0, 'CursorLineNr', {
         fg = ct.purple0,
-        bg = bg3,
+        bg = bgfl,
         ctermfg = 34,
         ctermbg = 234,
         underline = false,
@@ -320,7 +321,7 @@ return {
       vim.api.nvim_set_hl(0, 'WinSeparator', { link = 'VertSplit' })
       vim.api.nvim_set_hl(0, 'Folded', { fg = ct.gray7, bg = bg4, ctermfg = 204, ctermbg = 52})
       vim.api.nvim_set_hl(0, 'FoldColumn', { fg = ct.pink9, bg = bg, ctermfg = 161, ctermbg = 95})
-      vim.api.nvim_set_hl(0, 'SignColumn', { fg = 'NONE', bg = bg3, ctermfg = 'NONE', ctermbg = 234})
+      vim.api.nvim_set_hl(0, 'SignColumn', { fg = 'NONE', bg = bg, ctermfg = 'NONE', ctermbg = 234})
       vim.api.nvim_set_hl(0, 'IncSearch', { fg = 'NONE', bg = ct.darkpurple, ctermfg = 'NONE', ctermbg = 125, sp = ct.white, bold = (vim.g.pinkfusion_bold == 1), underdashed = true, italic = (vim.g.pinkfusion_italic == 1)})
       vim.api.nvim_set_hl(0, 'Substitute', { link = 'Search' } )
       vim.api.nvim_set_hl(0, 'MatchParen', { fg = ct.violet, ctermfg = 213, ctermbg = 'NONE', sp = ct.red6, bold = (vim.g.pinkfusion_bold == 1), underdouble = true})

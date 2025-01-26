@@ -22,13 +22,13 @@ if exists('g:pinkfusion_transparent')
 else
   if exists('g:pinkfusion_darker')
     let bg =  "#141020"
-    let bg2 = "#1a1926"
+    let bg2 = "#240d14"
     let bg3 = "#101020"
     let bg4 = "#040410"
   else
-    let bg =  "#5d233c"
+    let bg =  "#3d1723"
     let bg2 = "#742b3f"
-    let bg3 = "#1a1926"
+    let bg3 = "#240d14"
     let bg4 = "#4c0b21"
   end
 end
@@ -321,7 +321,7 @@ else
   hi LspReferenceText guibg=#7b2c34 ctermbg=52 gui=Bold,undercurl cterm=Bold,undercurl guisp=#fcd9b5
   hi LspReferenceRead guifg=#006400 ctermfg=22 gui=Bold,undercurl cterm=Bold,undercurl guisp=#fcd9b5
   hi LspReferenceWrite guifg=#006400 ctermfg=22 gui=Bold,undercurl cterm=Bold,undercurl guisp=#fcd9b5
-  hi LspFloatWinNormal guifg=#f8c6b0 ctermfg=223 guibg=#5c3a54 ctermbg=96 gui=NONE cterm=NONE
+  hi LspFloatWinNormal guifg=#f8c6b0 ctermfg=223 guibg=#530111b ctermbg=96 gui=NONE cterm=NONE
   hi LspSignatureActiveParameter guifg=NONE ctermfg=NONE guibg=#7e1650 ctermbg=89 gui=Bold,underline,Italic cterm=Bold,underline,Italic guisp=#f6d1a1
   hi link cssVendor cssTagName
   hi cssTagName guifg=#32CD32 ctermfg=34 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -397,6 +397,7 @@ else
   hi FloatBorder guifg=#2b4b9c ctermfg=25 guibg=bg2 ctermbg=236 gui=NONE cterm=NONE
   hi LineNr guifg=#ff2a6e ctermfg=197 guibg=bg ctermbg=234 gui=NONE cterm=NONE
   hi CursorLine guifg=NONE ctermfg=NONE guibg=#7b2c34 ctermbg=52 gui=Bold cterm=Bold
+  hi CursorLineSign guifg=NONE ctermfg=NONE guibg=#7b2c34 ctermbg=52 gui=Bold cterm=Bold
   hi CursorLineNr guifg=#f8b2ce ctermfg=218 guibg=bg3 ctermbg=234 gui=Bold cterm=Bold
   hi ColorColumn guifg=NONE ctermfg=NONE guibg=#6b2536 ctermbg=52 gui=NONE cterm=NONE
   hi Cursor guibg=#f6c9d9 ctermbg=224 gui=NONE cterm=NONE
@@ -577,7 +578,7 @@ if has('terminal')
   \ "#fcd9b5",
   \ "#f3c5cb",
   \ "#3c1b2d",
-  \ "#5d233c",
+  \ "#3d1723",
   \ "#f62e65",
   \ "#ffe0c4",
   \ "#f6d1a1",
@@ -590,7 +591,7 @@ endif
 
 if has('nvim')
   let g:terminal_color_foreground = "#d4847f"
-  let g:terminal_color_background = "#5d233c"
+  let g:terminal_color_background = "#3d1723"
   let g:terminal_color_0 = "#070510"
   let g:terminal_color_1 = "#f1609a"
   let g:terminal_color_2 = "#ff9b96"
@@ -599,7 +600,7 @@ if has('nvim')
   let g:terminal_color_5 = "#fcd9b5"
   let g:terminal_color_6 = "#f3c5cb"
   let g:terminal_color_7 = "#3c1b2d"
-  let g:terminal_color_8 = "#5d233c"
+  let g:terminal_color_8 = "#3d1723"
   let g:terminal_color_9 = "#f62e65"
   let g:terminal_color_10 = "#ffe0c4"
   let g:terminal_color_11 = "#f6d1a1"

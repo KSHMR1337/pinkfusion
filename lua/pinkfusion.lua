@@ -324,7 +324,7 @@ return {
       vim.api.nvim_set_hl(0, 'SignColumn', { fg = 'NONE', bg = bg, ctermfg = 'NONE', ctermbg = 234})
       vim.api.nvim_set_hl(0, 'IncSearch', { fg = 'NONE', bg = ct.darkpurple, ctermfg = 'NONE', ctermbg = 125, sp = ct.white, bold = (vim.g.pinkfusion_bold == 1), underdashed = true, italic = (vim.g.pinkfusion_italic == 1)})
       vim.api.nvim_set_hl(0, 'Substitute', { link = 'Search' } )
-      vim.api.nvim_set_hl(0, 'MatchParen', { fg = ct.violet, ctermfg = 213, ctermbg = 'NONE', sp = ct.red6, bold = (vim.g.pinkfusion_bold == 1), underdouble = true})
+      vim.api.nvim_set_hl(0, 'MatchParen', { fg = ct.crimson, ctermfg = 213, ctermbg = 'NONE', sp = ct.red6, bold = (vim.g.pinkfusion_bold == 1), underdouble = true})
       vim.api.nvim_set_hl(0, 'Search', { fg = 'NONE', bg = ct.neardark4, ctermfg = 'NONE', sp = ct.violet, bold = (vim.g.pinkfusion_bold == 1), underdotted = true, italic = (vim.g.pinkfusion_italic == 1)})
       if vim.fn.has('nvim-0.9') then
         lsp_v9(bg)

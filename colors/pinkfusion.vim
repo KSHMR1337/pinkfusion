@@ -414,7 +414,7 @@ else
   hi FoldColumn guifg=#7f2f44 ctermfg=131 guibg=bg4 ctermbg=233 gui=NONE cterm=NONE
   hi SignColumn guifg=NONE ctermfg=NONE guibg=bg4 ctermbg=233 gui=NONE cterm=NONE
   hi IncSearch guifg=NONE ctermfg=NONE guibg=#9f2162 ctermbg=125 gui=Bold,undercurl,Italic cterm=Bold,undercurl,Italic guisp=#f4a58d
-  hi MatchParen guifg=#EE82EE ctermfg=213 guibg=NONE ctermbg=NONE gui=Bold,undercurl cterm=Bold,undercurl guisp=#f2b57e
+  hi MatchParen guifg=#DC143C ctermfg=213 guibg=NONE ctermbg=NONE gui=Bold,undercurl cterm=Bold,undercurl guisp=#f2b57e
   hi ModeMsg guifg=#7FFF00 ctermfg=118 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi MoreMsg guifg=#f16c6e ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi NonText guifg=#9b3751 ctermfg=131 gui=NONE cterm=NONE

@@ -19,9 +19,9 @@ The theme has a Vimscript and a LUA version, the LUA version will be loaded auto
    {
     'kshmr1337/pinkfusion',
     init = function()
-      vim.g.aurora_italic = 1
-      vim.g.aurora_transparent = 1
-      vim.g.aurora_bold = 1
+      vim.g.pinkfusion_italic = 1
+      vim.g.pinkfusion_transparent = 1
+      vim.g.pinkfusion_bold = 1
     end,
     config = function()
         vim.cmd.colorscheme "pinkfusion"

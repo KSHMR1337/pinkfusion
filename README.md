@@ -5,8 +5,10 @@ This theme was inspired by the theme Aurora, I wanted to create an aurora fork t
 Feel free to contribute, just open a PR.
 
 Normal mode:
+![image](https://github.com/user-attachments/assets/58a6d7d8-0629-44c5-864d-78d5d1b0071a)
 
 Transparent mode:
+![image](https://github.com/user-attachments/assets/241a0e11-f29b-4799-b67f-7488ce78c7cb)
 
 ### LUA Setup
 
